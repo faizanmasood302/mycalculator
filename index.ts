@@ -3,10 +3,10 @@ console.log("can i get a hoooyaaa");
 
 import inquirer from "inquirer";
    const answer = await inquirer.prompt([
-    {message:"enter ther first number", 
+    {message:"enter your first number", 
     type:"number",
     name:"firstNumber"},
-    {message:"enter the second number",
+    {message:"enter your second number",
     type:"number",
     name:"secondNumber"
     },
